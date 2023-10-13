@@ -1,0 +1,13 @@
+{
+	"name": "posvyat_img_encrypt",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"test_encode": "node encode.js -m 'ya v svoyom posnanii uzhe tak preispolnilsya' -i in2.png -o out.png -r 1 -s 1 -p 0 -a './aspectMod.mjs'",
+		"decode": "node decode.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"pngjs": "^7.0.0"
+	}
+}
